@@ -1,0 +1,42 @@
+@import "tailwindcss";
+:root {
+  --bg-color: #9D9D9D;
+  --text-color: #fff;
+  --primary-color: #E75480;
+  --secondary-color: #F28AB2;
+  --triary-color: #7A1C3B;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+button{
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.home-screen {
+  background-image: url("/Background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.Login_screen {
+  background-image: url("/LoginBg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.register_screen {
+  background-image: url("/NewRegister.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
